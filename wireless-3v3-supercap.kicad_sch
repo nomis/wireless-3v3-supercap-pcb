@@ -453,6 +453,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
@@ -833,22 +932,22 @@
 		)
 	)
 	(junction
-		(at 58.42 59.69)
+		(at 58.42 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d1781dc-7c44-48d4-8a36-669732947d31")
+	)
+	(junction
+		(at 58.42 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e30a09e-3f7f-45e5-8855-8b43275806e4")
 	)
 	(junction
-		(at 58.42 78.74)
+		(at 58.42 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6983fdd9-3efb-4d2a-b63c-ad430ce9cb4e")
-	)
-	(junction
-		(at 58.42 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cad9b45-e27f-4195-9f1e-33f23f159287")
 	)
 	(junction
 		(at 25.4 39.37)
@@ -857,7 +956,7 @@
 		(uuid "a22426db-de11-43ef-ae9c-94499513118f")
 	)
 	(junction
-		(at 58.42 87.63)
+		(at 58.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deba1d97-a810-44df-9623-bd15277622dd")
@@ -898,7 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 73.66) (xy 58.42 78.74)
+			(xy 58.42 83.82) (xy 58.42 88.9)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 39.37) (xy 25.4 49.53)
+			(xy 25.4 39.37) (xy 25.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +1027,17 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 87.63) (xy 58.42 87.63)
+			(xy 58.42 39.37) (xy 58.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7608358c-abf7-492b-bc3d-4e0278cc2048")
+	)
+	(wire
+		(pts
+			(xy 8.89 97.79) (xy 58.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -938,17 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 58.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d65211a-4913-49ea-a40a-caf36ae91834")
-	)
-	(wire
-		(pts
-			(xy 8.89 36.83) (xy 8.89 87.63)
+			(xy 8.89 36.83) (xy 8.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 58.42 87.63)
+			(xy 58.42 88.9) (xy 58.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -968,17 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89acd0e3-1180-4c75-9b14-fc6a0a055f5f")
-	)
-	(wire
-		(pts
-			(xy 58.42 87.63) (xy 58.42 90.17)
+			(xy 58.42 97.79) (xy 58.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 49.53) (xy 38.1 49.53)
+			(xy 25.4 54.61) (xy 38.1 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 58.42 66.04)
+			(xy 58.42 69.85) (xy 58.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1028,7 +1117,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 58.42 49.53)
+			(xy 58.42 54.61) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78a12bc-4660-4200-ae48-f5fbc0e97e4f")
+	)
+	(wire
+		(pts
+			(xy 45.72 54.61) (xy 58.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1038,7 +1137,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 58.42 59.69 90)
+		(at 58.42 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1047,7 +1146,7 @@
 		(fields_autoplaced yes)
 		(uuid "18da2216-0bc1-4cf4-a030-fb3f162cacca")
 		(property "Reference" "#FLG02"
-			(at 56.515 59.69 0)
+			(at 56.515 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1155,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 54.61 59.6899 90)
+			(at 54.61 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 59.69 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 59.69 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1182,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 58.42 59.69 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1408,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 49.53 90)
+		(at 41.91 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1317,7 +1416,7 @@
 		(dnp no)
 		(uuid "87eb389b-0823-4976-bb90-f8af0805c954")
 		(property "Reference" "R2"
-			(at 41.91 43.18 90)
+			(at 41.91 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1424,7 @@
 			)
 		)
 		(property "Value" "900-910mΩ 1% 20-100W"
-			(at 41.91 45.72 90)
+			(at 41.91 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1432,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-247-2_Horizontal_TabDown"
-			(at 41.91 51.308 90)
+			(at 41.91 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 49.53 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1450,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 49.53 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1475,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 58.42 78.74 90)
+		(at 58.42 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1385,7 +1484,7 @@
 		(fields_autoplaced yes)
 		(uuid "974be489-32eb-45db-b0fd-b01f5c1a481e")
 		(property "Reference" "#FLG01"
-			(at 56.515 78.74 0)
+			(at 56.515 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1493,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 54.61 78.7399 90)
+			(at 54.61 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 78.74 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 78.74 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1520,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 58.42 78.74 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,8 +1685,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 41.91 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5772f7-a69e-4b7f-87f6-14b284599e8e")
+		(property "Reference" "HS1"
+			(at 45.72 41.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 45.72 43.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.6052 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.6052 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 41.91 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce991f5a-de62-45c5-9f48-1021e7e6f382")
+		(property "Reference" "HS2"
+			(at 45.72 56.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 45.72 59.0549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.6052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.6052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "wireless-3v3-supercap"
+				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 58.42 90.17 0)
+		(at 58.42 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1596,7 +1823,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9eb84f8-88d9-47fd-8f33-c68ddb2a75f6")
 		(property "Reference" "#PWR01"
-			(at 58.42 96.52 0)
+			(at 58.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 95.25 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 90.17 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 90.17 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 90.17 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1880,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 58.42 69.85 0)
+		(at 58.42 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1662,7 +1889,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7040c45-f1cb-4db2-b886-a1feeff0a39f")
 		(property "Reference" "C1"
-			(at 62.23 67.6909 0)
+			(at 62.23 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1898,7 @@
 			)
 		)
 		(property "Value" "800F 2.7V"
-			(at 62.23 70.2309 0)
+			(at 62.23 80.3909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1907,7 @@
 			)
 		)
 		(property "Footprint" "wireless-3v3-supercap:TPLH-2R7_800PS35X71"
-			(at 59.3852 73.66 0)
+			(at 59.3852 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1916,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tecategroup.com/products/mpdf.php?i=TPLH-2R7%2F800PS35X71"
-			(at 58.42 69.85 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1925,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 58.42 69.85 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
