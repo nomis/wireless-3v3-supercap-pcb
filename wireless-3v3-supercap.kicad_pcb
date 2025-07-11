@@ -7225,6 +7225,19 @@
 			)
 		)
 	)
+	(gr_text "Discharge: 10-15 minutes"
+		(at 53.34 27.94 0)
+		(layer "B.SilkS")
+		(uuid "8798ef84-c02f-4175-9d32-8835cfeff9b7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
