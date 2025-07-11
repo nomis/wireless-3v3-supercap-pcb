@@ -5719,13 +5719,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D35.0mm_P10.00mm_SnapIn.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 2.028571429)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
