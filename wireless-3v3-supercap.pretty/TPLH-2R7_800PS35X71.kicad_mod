@@ -5685,7 +5685,6 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 2)
 		(uuid "93fa7ac0-2ae0-4a3b-b1c0-9cf5b73c381e")
 	)
 	(pad "" thru_hole circle
@@ -5694,7 +5693,6 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 2)
 		(uuid "3ecaf009-0606-41f3-8447-839396c906a8")
 	)
 	(pad "1" thru_hole roundrect
