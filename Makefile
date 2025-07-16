@@ -11,17 +11,35 @@
 
 all: \
 	render/wireless-3v3-supercap-pcb.svg \
-	render/wireless-3v3-supercap-sch.svg
+	render/wireless-3v3-supercap-Root-sch.svg \
+	render/wireless-3v3-supercap-Charge-sch.svg \
+	render/wireless-3v3-supercap-Power\ In-sch.svg \
+	render/wireless-3v3-supercap-Power\ Out-sch.svg
 
-render/%-sch.svg: build/%-schematic.svg Makefile
+render/%-Root-sch.svg: build/%-schematic.svg Makefile
 	sed \
 		-e 's:<title>[^<]*</title>::' \
 		< $< > $@
 
+render/%-Charge-sch.svg: build/%-Charge.svg Makefile
+	sed \
+		-e 's:<title>[^<]*</title>::' \
+		< $< > $@
+
+render/%-Power\ In-sch.svg: build/%-Power\ In.svg Makefile
+	sed \
+		-e 's:<title>[^<]*</title>::' \
+		< "$<" > "$@"
+
+render/%-Power\ Out-sch.svg: build/%-Power\ Out.svg Makefile
+	sed \
+		-e 's:<title>[^<]*</title>::' \
+		< "$<" > "$@"
+
 render/%-pcb.svg: %-pcb.svg.in build/%-top.bare-svg build/%-bottom.bare-svg Makefile
 	m4 < $< > $@
 
-build/%-top.svg build/%-bottom.svg build/%-schematic.svg: %.kicad_sch %.kicad_pcb default.kibot.yaml
+build/%-top.svg build/%-bottom.svg build/%-schematic.svg build/%-Charge.svg build/%-Power\ In.svg build/%-Power\ Out.svg: %.kicad_sch %.kicad_pcb default.kibot.yaml
 	kibot -e $< -b $(word 2,$^)
 
 build/%-top.rewrite-id-svg: build/%-top.svg Makefile

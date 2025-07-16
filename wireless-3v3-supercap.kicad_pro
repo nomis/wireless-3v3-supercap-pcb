@@ -625,6 +625,18 @@
     [
       "01e6e533-9ed1-4dde-bac5-1959ff8991e5",
       "Root"
+    ],
+    [
+      "a1435003-e5d3-4de7-a692-f8e6f931526d",
+      "Charge"
+    ],
+    [
+      "08e0040f-7161-45a0-9f3d-7aa124b5aeed",
+      "Power Out"
+    ],
+    [
+      "a77c7d89-57ad-45c8-8c49-3fed7cec5f8a",
+      "Power In"
     ]
   ],
   "text_variables": {}

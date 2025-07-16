@@ -1,0 +1,134 @@
+(footprint "E103SYZGE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SWITCH TOGGLE SPDT 7.5A 125V")
+	(property "Reference" "REF**"
+		(at 4.318 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0801706f-3d35-4ea7-a512-6559b523c70a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "E103SYZGE"
+		(at -4.064 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dcbc9f19-7d82-44c1-9d00-c1519fac6689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bd82366-ce95-41b1-aee7-5d58021f736f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87ab2fc-f442-4860-912e-fe18b78a7178")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.3 -6.35)
+		(end 3.3 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dfea1511-d1e7-41e0-8335-95b7372dba7d")
+	)
+	(fp_rect
+		(start -3.55 -6.6)
+		(end 3.55 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a030283c-32c6-4ffa-91d4-cbdee268dcdf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.048 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c1dcb5b-f3c4-470a-ab99-e0114dbf1213")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -4.7)
+		(size 4.54 3)
+		(drill oval 2.54 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(thermal_bridge_angle 45)
+		(uuid "4aca763b-0be4-4f93-820f-08b0fd534b86")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 4.54 3)
+		(drill oval 2.54 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(thermal_bridge_angle 45)
+		(uuid "0522a879-d98a-452c-92ab-7d6083616f32")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 4.7)
+		(size 4.54 3)
+		(drill oval 2.54 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(thermal_bridge_angle 45)
+		(uuid "cac39483-34ae-48ad-b76e-672d3ab32a21")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/vendor/ck/E103SYZGE.stp"
+		(offset
+			(xyz 0 0 9.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

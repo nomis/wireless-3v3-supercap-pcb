@@ -6,7 +6,7 @@
 	(descr "Electric Double Layer Snap-in Ultracapacitor 35mm D 71mm L")
 	(tags "Capacitor")
 	(property "Reference" "REF**"
-		(at 0 -20.75 0)
+		(at 0 -18.796 0)
 		(layer "F.SilkS")
 		(uuid "7fe1e650-c466-4a69-9cf8-5fcae0f01193")
 		(effects
