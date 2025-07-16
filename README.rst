@@ -8,7 +8,7 @@ PCB to wirelessly power a 3.3V microcontroller circuit and charge a
 supercapacitor so that it keeps running for at least an hour when taken off the
 charging coil.
 
-Dimensions: 85mm W × 40mm H
+Dimensions: 88mm W × 40mm H
 
 Usage
 -----
