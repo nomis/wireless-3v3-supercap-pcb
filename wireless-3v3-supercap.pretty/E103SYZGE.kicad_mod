@@ -12,12 +12,12 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "E103SYZGE"
-		(at -4.064 0 270)
+		(at -4.318 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "dcbc9f19-7d82-44c1-9d00-c1519fac6689")
@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -3.3 -6.35)
-		(end 3.3 6.35)
+		(start -3.3 -6.85)
+		(end 3.3 6.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -67,8 +67,8 @@
 		(uuid "dfea1511-d1e7-41e0-8335-95b7372dba7d")
 	)
 	(fp_rect
-		(start -3.55 -6.6)
-		(end 3.55 6.6)
+		(start -3.55 -7.1)
+		(end 3.55 7.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -78,7 +78,7 @@
 		(uuid "a030283c-32c6-4ffa-91d4-cbdee268dcdf")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.048 0 270)
+		(at 2.286 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1c1dcb5b-f3c4-470a-ab99-e0114dbf1213")
