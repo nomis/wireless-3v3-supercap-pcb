@@ -18,9 +18,9 @@ This is a KiCad project.
 Safety
 ------
 
-There is a toggle switch to discharge the capacitor, which will take 10-15
-at 6A (unverified). This process is limited by the current switching capacity
-of the switch.
+There is a toggle switch to discharge the capacitor, which will take 14-16
+minutes at 390mΩ (unverified). This process is limited by the current switching
+capacity of the switch.
 
 Schematic
 ---------
