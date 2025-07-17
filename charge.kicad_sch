@@ -627,7 +627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24640.pdf"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -636,7 +636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High-Efficiency Synchronous Switched-Mode Super Capacitor Charger"
 			(at 74.93 64.77 0)
 			(effects
 				(font
