@@ -1151,10 +1151,10 @@
 		(uuid "6983fdd9-3efb-4d2a-b63c-ad430ce9cb4e")
 	)
 	(junction
-		(at 139.7 92.71)
+		(at 59.69 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6382241-5330-4b41-900f-2eb10c5a0203")
+		(uuid "8957cb35-a4fc-45a5-91f1-f3f87ca93101")
 	)
 	(junction
 		(at 59.69 92.71)
@@ -1164,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 52.07) (xy 59.69 63.5)
+			(xy 59.69 52.07) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1234,6 +1234,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 57.15) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3154b2ea-4058-4f62-8866-302cf4df49b5")
+	)
+	(wire
+		(pts
 			(xy 25.4 93.98) (xy 25.4 99.06)
 		)
 		(stroke
@@ -1244,16 +1254,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 92.71) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a60c78-6d6b-4c25-89fd-78b6053b13a2")
-	)
-	(wire
-		(pts
 			(xy 55.88 46.99) (xy 81.28 46.99)
 		)
 		(stroke
@@ -1261,16 +1261,6 @@
 			(type default)
 		)
 		(uuid "5f577857-6af5-46fa-9316-4653bde78f4b")
-	)
-	(wire
-		(pts
-			(xy 139.7 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77892514-7f21-463b-9c06-2a005e318838")
 	)
 	(wire
 		(pts
@@ -1391,6 +1381,16 @@
 			(type default)
 		)
 		(uuid "bc6a4d24-ced4-4b24-ac43-a2064c022ecb")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1557966-c4d4-4b38-84ec-bb224d107067")
 	)
 	(wire
 		(pts
@@ -1615,72 +1615,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 139.7 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01670118-1270-4544-8f43-5a7437c2b249")
-		(property "Reference" "#FLG03"
-			(at 139.7 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 139.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "075f9bae-f0cf-4b68-a368-9e664e1cc80f")
-		)
-		(instances
-			(project ""
-				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5"
-					(reference "#FLG03")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2465,6 +2399,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 59.69 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe1e6267-0e3f-46c9-8b88-1c35ee2b8d7f")
+		(property "Reference" "#FLG03"
+			(at 61.595 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18cf289-759b-4bd7-b78d-b8a24b47c8f9")
+		)
+		(instances
+			(project "wireless-3v3-supercap"
+				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 148.59 92.71 270)
 		(unit 1)
@@ -2533,7 +2534,7 @@
 	)
 	(sheet
 		(at 100.33 87.63)
-		(size 28.575 22.86)
+		(size 27.94 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2576,7 +2577,7 @@
 			)
 		)
 		(pin "VOUT" passive
-			(at 128.905 92.71 0)
+			(at 128.27 92.71 0)
 			(uuid "9467e130-bdba-4714-8068-f6e9586c014a")
 			(effects
 				(font
