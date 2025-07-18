@@ -601,7 +601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e15501-9af2-4378-a119-a34c468e911b")
-		(property "Reference" "U1"
+		(property "Reference" "C.U1"
 			(at 74.93 39.37 0)
 			(effects
 				(font
@@ -699,7 +699,7 @@
 		(instances
 			(project ""
 				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5/a1435003-e5d3-4de7-a692-f8e6f931526d"
-					(reference "U1")
+					(reference "C.U1")
 					(unit 1)
 				)
 			)
@@ -715,7 +715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d8d96c-751c-491b-a293-0ae955e3fd2a")
-		(property "Reference" "TH1"
+		(property "Reference" "C.TH1"
 			(at 17.78 63.4999 0)
 			(effects
 				(font
@@ -769,7 +769,7 @@
 		(instances
 			(project "wireless-3v3-supercap"
 				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5/a1435003-e5d3-4de7-a692-f8e6f931526d"
-					(reference "TH1")
+					(reference "C.TH1")
 					(unit 1)
 				)
 			)
