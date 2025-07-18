@@ -519,6 +519,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a16d6a-9f8a-476e-a17a-82cd8b349bc8")
+	)
+	(wire
+		(pts
 			(xy 92.71 67.31) (xy 96.52 67.31)
 		)
 		(stroke
@@ -526,6 +536,36 @@
 			(type default)
 		)
 		(uuid "349330ce-638d-4a17-8116-addc428be364")
+	)
+	(wire
+		(pts
+			(xy 96.52 46.99) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03126bd-f845-4059-9f9b-80d6899e8b17")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb735da4-2a22-46ac-b45c-65fb53263a5f")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1df1c34-efd1-4940-bf60-bab57883e140")
 	)
 	(wire
 		(pts
@@ -546,17 +586,6 @@
 			(type default)
 		)
 		(uuid "ffce96ea-10ce-455a-8e1a-2eb364268e8e")
-	)
-	(hierarchical_label "CHARGE_ENABLE"
-		(shape input)
-		(at 53.34 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "026575ef-3369-447e-987a-7680d0218d38")
 	)
 	(hierarchical_label "SUPERCAP"
 		(shape passive)

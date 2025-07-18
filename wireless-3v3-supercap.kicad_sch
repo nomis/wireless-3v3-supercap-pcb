@@ -5,7 +5,7 @@
 	(uuid "01e6e533-9ed1-4dde-bac5-1959ff8991e5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -130,17 +130,6 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -200,18 +189,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -304,24 +281,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1214,16 +1173,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 35.56 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5de273-c6c6-4333-9826-042638127433")
-	)
-	(wire
-		(pts
 			(xy 55.88 52.07) (xy 59.69 52.07)
 		)
 		(stroke
@@ -1324,16 +1273,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 76.2) (xy 132.08 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a4abd5-4a5f-488a-89be-4c3e61b0a675")
-	)
-	(wire
-		(pts
 			(xy 59.69 63.5) (xy 100.33 63.5)
 		)
 		(stroke
@@ -1364,7 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 71.12) (xy 132.08 71.12)
+			(xy 128.27 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 132.08 73.66)
+			(xy 128.27 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1442,28 +1381,6 @@
 		)
 		(uuid "41cc40b8-e23f-4e94-afae-c0cb36ce9866")
 	)
-	(global_label "CHARGE_ENABLE"
-		(shape input)
-		(at 132.08 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24f02b55-8f94-43cd-adc1-842af5a6c27a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4261 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAPACITOR_VOLTAGE"
 		(shape passive)
 		(at 100.33 119.38 0)
@@ -1488,7 +1405,7 @@
 	)
 	(global_label "EXTERNAL_POWER_PRESENT"
 		(shape output)
-		(at 132.08 71.12 0)
+		(at 132.08 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1498,7 +1415,7 @@
 		)
 		(uuid "4d024439-ce1e-4125-b8e4-05da8596ac28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0092 71.12 0)
+			(at 161.0092 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1449,7 @@
 	)
 	(global_label "CHARGE_STATUS"
 		(shape output)
-		(at 132.08 73.66 0)
+		(at 132.08 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1542,29 +1459,7 @@
 		)
 		(uuid "7bd4e9ed-4468-4ad4-ba04-0b8155a504c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1842 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHARGE_ENABLE"
-		(shape output)
-		(at 35.56 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d20a8574-7c9d-4599-80ad-abbb0ad7799f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.9061 25.4 0)
+			(at 150.1842 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1471,7 @@
 	)
 	(global_label "CAPACITOR_VOLTAGE"
 		(shape passive)
-		(at 35.56 27.94 0)
+		(at 35.56 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1586,7 +1481,7 @@
 		)
 		(uuid "ea74f475-ab3b-4142-b348-6ea8bd43b948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.484 27.94 0)
+			(at 56.484 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1581,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 25.4 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1711,7 +1606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 25.4 20.32 0)
 			(effects
 				(font
@@ -1729,7 +1624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 25.4 20.32 0)
 			(effects
 				(font
@@ -1752,9 +1647,6 @@
 		)
 		(pin "5"
 			(uuid "7c771b6c-8d79-4b6e-af93-0728946171ce")
-		)
-		(pin "6"
-			(uuid "923102fa-b705-41a7-a333-517e8a13b67a")
 		)
 		(instances
 			(project ""
@@ -2638,18 +2530,8 @@
 				(justify left)
 			)
 		)
-		(pin "CHARGE_ENABLE" input
-			(at 128.27 76.2 0)
-			(uuid "1400f4d1-b4fe-439c-ad49-2d5c67f87089")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CHARGE_STATUS" output
-			(at 128.27 73.66 0)
+			(at 128.27 76.2 0)
 			(uuid "6fa56fb1-24b7-4874-bd37-23f6a4982a4d")
 			(effects
 				(font
@@ -2659,7 +2541,7 @@
 			)
 		)
 		(pin "EXTERNAL_POWER_PRESENT" output
-			(at 128.27 71.12 0)
+			(at 128.27 73.66 0)
 			(uuid "eb6069aa-048b-428c-b1fd-decea9cf504e")
 			(effects
 				(font
