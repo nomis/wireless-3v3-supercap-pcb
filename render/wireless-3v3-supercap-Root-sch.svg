@@ -2542,8 +2542,8 @@ d="M 146.0500,76.2000
 Z" /> 
 <text x="144.5895" y="74.2950"
 textLength="26.1472" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0" stroke-opacity="0">EXTERNAL_POWER_PRESENT</text>
-<g class="stroked-text"><desc>EXTERNAL_POWER_PRESENT</desc>
+text-anchor="end" opacity="0" stroke-opacity="0">~{EXTERNAL_POWER_PRESENT}</text>
+<g class="stroked-text"><desc>~{EXTERNAL_POWER_PRESENT}</desc>
 <path d="M118.8476 73.5743
 L119.2710 73.5743
 " />
@@ -2936,6 +2936,9 @@ L144.3683 72.9695
 " />
 <path d="M144.0055 74.2395
 L144.0055 72.9695
+" />
+<path d="M118.6723 72.6170
+L144.3623 72.6170
 " />
 </g><path style="fill:none; 
 stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
@@ -9937,8 +9940,8 @@ stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="87.7888" y="69.3058"
 textLength="17.7412" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">MEASURE_VOLTAGE</text>
-<g class="stroked-text"><desc>MEASURE_VOLTAGE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{MEASURE_VOLTAGE}</text>
+<g class="stroked-text"><desc>~{MEASURE_VOLTAGE}</desc>
 <path d="M88.1913 69.2503
 L88.1913 67.9803
 " />
@@ -10239,6 +10242,9 @@ L104.5803 67.9803
 <path d="M104.5803 67.9803
 L105.1851 67.9803
 " />
+<path d="M88.0160 67.6278
+L105.3000 67.6278
+" />
 </g><path style="fill:none; 
 stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;fill:none"
@@ -10255,8 +10261,8 @@ stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="36.9888" y="18.5058"
 textLength="26.1472" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">EXTERNAL_POWER_PRESENT</text>
-<g class="stroked-text"><desc>EXTERNAL_POWER_PRESENT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{EXTERNAL_POWER_PRESENT}</text>
+<g class="stroked-text"><desc>~{EXTERNAL_POWER_PRESENT}</desc>
 <path d="M37.3913 17.7851
 L37.8147 17.7851
 " />
@@ -10650,6 +10656,9 @@ L62.9120 17.1803
 <path d="M62.5492 18.4503
 L62.5492 17.1803
 " />
+<path d="M37.2160 16.8278
+L62.9060 16.8278
+" />
 </g><path style="fill:none; 
 stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;fill:none"
@@ -11005,8 +11014,8 @@ stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="36.0363" y="23.5858"
 textLength="17.7412" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">MEASURE_VOLTAGE</text>
-<g class="stroked-text"><desc>MEASURE_VOLTAGE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{MEASURE_VOLTAGE}</text>
+<g class="stroked-text"><desc>~{MEASURE_VOLTAGE}</desc>
 <path d="M36.4388 23.5303
 L36.4388 22.2603
 " />
@@ -11306,6 +11315,9 @@ L52.8278 22.2603
 " />
 <path d="M52.8278 22.2603
 L53.4326 22.2603
+" />
+<path d="M36.2635 21.9078
+L53.5475 21.9078
 " />
 </g><path style="fill:none; 
 stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
@@ -12046,8 +12058,8 @@ stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="150.3363" y="74.3858"
 textLength="26.1472" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">EXTERNAL_POWER_PRESENT</text>
-<g class="stroked-text"><desc>EXTERNAL_POWER_PRESENT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{EXTERNAL_POWER_PRESENT}</text>
+<g class="stroked-text"><desc>~{EXTERNAL_POWER_PRESENT}</desc>
 <path d="M150.7388 73.6651
 L151.1622 73.6651
 " />
@@ -12440,6 +12452,9 @@ L176.2595 73.0603
 " />
 <path d="M175.8967 74.3303
 L175.8967 73.0603
+" />
+<path d="M150.5635 72.7078
+L176.2535 72.7078
 " />
 </g><path style="fill:none; 
 stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 

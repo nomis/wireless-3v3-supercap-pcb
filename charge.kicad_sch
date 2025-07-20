@@ -719,7 +719,7 @@
 		)
 		(uuid "4965dad3-ff93-4ab1-8d07-a476ac96c432")
 	)
-	(hierarchical_label "EXTERNAL_POWER_PRESENT"
+	(hierarchical_label "~{EXTERNAL_POWER_PRESENT}"
 		(shape output)
 		(at 96.52 57.15 0)
 		(effects

@@ -3517,8 +3517,8 @@ stroke:#725600; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="97.9805" y="57.7850"
 textLength="26.1472" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">EXTERNAL_POWER_PRESENT</text>
-<g class="stroked-text"><desc>EXTERNAL_POWER_PRESENT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{EXTERNAL_POWER_PRESENT}</text>
+<g class="stroked-text"><desc>~{EXTERNAL_POWER_PRESENT}</desc>
 <path d="M98.3830 57.0643
 L98.8064 57.0643
 " />
@@ -3911,6 +3911,9 @@ L123.9037 56.4595
 " />
 <path d="M123.5409 57.7295
 L123.5409 56.4595
+" />
+<path d="M98.2077 56.1070
+L123.8977 56.1070
 " />
 </g><path style="fill:none; 
 stroke:#725600; stroke-width:0.1524; stroke-opacity:1; 
