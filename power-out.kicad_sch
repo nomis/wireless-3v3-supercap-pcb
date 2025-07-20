@@ -2012,7 +2012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ 125mW"
+		(property "Value" "10kΩ 1% 125mW"
 			(at 49.53 38.0999 0)
 			(effects
 				(font
@@ -2525,7 +2525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ 125mW"
+		(property "Value" "10kΩ 1% 125mW"
 			(at 49.53 64.7699 0)
 			(effects
 				(font
