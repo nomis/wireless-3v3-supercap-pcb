@@ -2423,7 +2423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26.1kΩ 1% 125mW"
+		(property "Value" "20kΩ 1% 125mW"
 			(at 73.66 83.8199 0)
 			(effects
 				(font
