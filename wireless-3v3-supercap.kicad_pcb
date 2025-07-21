@@ -8670,9 +8670,9 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 0 12.54 90)
-			(layer "F.Fab")
+		(property "Value" "POWER-OUT"
+			(at 2.54 5.08 180)
+			(layer "F.SilkS")
 			(uuid "bfbf3bb4-3aa0-40df-8656-4ec781b472c1")
 			(effects
 				(font

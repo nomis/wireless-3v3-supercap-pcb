@@ -1598,7 +1598,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
+		(property "Value" "POWER-OUT"
 			(at 26.035 12.7 0)
 			(effects
 				(font
