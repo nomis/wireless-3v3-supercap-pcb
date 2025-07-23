@@ -2217,6 +2217,37 @@ d="M 115.5700,67.3100
 114.3000,67.9450
 114.9350,67.9450
 Z" /> 
+<text x="114.1095" y="57.7850"
+textLength="3.2271" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
+text-anchor="end" opacity="0" stroke-opacity="0">VIN</text>
+<g class="stroked-text"><desc>VIN</desc>
+<path d="M111.1063 56.4595
+L111.5296 57.7295
+" />
+<path d="M111.5296 57.7295
+L111.9530 56.4595
+" />
+<path d="M112.3763 57.7295
+L112.3763 56.4595
+" />
+<path d="M112.9811 57.7295
+L112.9811 56.4595
+" />
+<path d="M112.9811 56.4595
+L113.7068 57.7295
+" />
+<path d="M113.7068 57.7295
+L113.7068 56.4595
+" />
+</g><path style="fill:none; 
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+stroke-linecap:round; stroke-linejoin:round;fill:none"
+d="M 114.3000,57.1500
+114.9350,57.7850
+115.5700,57.7850
+115.5700,56.5150
+114.9350,56.5150
+Z" /> 
 <text x="87.6300" y="51.3584"
 textLength="6.7950" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
 text-anchor="start" opacity="0" stroke-opacity="0">Charge</text>

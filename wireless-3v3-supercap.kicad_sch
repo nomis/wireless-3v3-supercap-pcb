@@ -2554,6 +2554,16 @@
 				(justify right)
 			)
 		)
+		(pin "VIN" input
+			(at 115.57 57.15 0)
+			(uuid "ea3e6482-8e95-4bbc-8c18-1d7119197cec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "wireless-3v3-supercap"
 				(path "/01e6e533-9ed1-4dde-bac5-1959ff8991e5"
