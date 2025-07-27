@@ -175,24 +175,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -31.75 90)
-				(length 5.08)
-				(name "EP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 17.78 17.78 180)
 				(length 5.08)
@@ -366,6 +348,26 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BQ24640RVAR_1_0"
+			(pin power_in line
+				(at 0 -31.75 90)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.016 1.016)

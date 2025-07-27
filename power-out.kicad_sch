@@ -986,7 +986,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V = (R3/R4 + 1) * 0.6 = 3.32"
+	(text "V = 0.6 * (1 + R3/R4) = 3.319"
 		(exclude_from_sim no)
 		(at 102.87 43.434 0)
 		(effects
@@ -1536,7 +1536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "88.7kΩ 1% 125mW"
+		(property "Value" "88.7kΩ 0.1% 125mW"
 			(at 102.87 49.5299 0)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 				)
 			)
 		)
-		(property "Value" "1µH 25A 30%"
+		(property "Value" "1µH 25A 20%"
 			(at 81.28 10.16 90)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "402kΩ 1% 125mW"
+		(property "Value" "402kΩ 0.1% 125mW"
 			(at 102.87 39.3699 0)
 			(effects
 				(font

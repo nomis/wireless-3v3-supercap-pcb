@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "wireless-3v3-supercap")(type "KiCad")(uri "${KIPRJMOD}/wireless-3v3-supercap.pretty")(options "")(descr ""))
   (lib (name "BQ24640RVAR")(type "KiCad")(uri "${KIPRJMOD}/vendor/ti/BQ24640RVAR/BQ24640RVAR.pretty")(options "")(descr ""))
+  (lib (name "SRN5040")(type "KiCad")(uri "${KIPRJMOD}/vendor/bourns/SRN5040.pretty")(options "")(descr ""))
 )
