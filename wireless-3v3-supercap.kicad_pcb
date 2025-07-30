@@ -11656,6 +11656,19 @@
 			(justify right)
 		)
 	)
+	(gr_text "Where lies the strangling fruit that came from the hand\nof the sinner I shall bring forth the seeds of the dead\nto share     with the worms that gather      in the  \ndarkness and surround\nthe world with the power\nof their lives while from\nthe dim-lit halls of other places forms that\n  never could be            writhe for the \nimpatience of the           few who have \n   never seen          or been seen."
+		(at 46.482 47.117 0)
+		(layer "F.SilkS")
+		(uuid "995fc138-1bb4-4d08-8007-89d2e7c9858c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
 	(gr_text "OFF"
 		(at 69.215 26.67 180)
 		(layer "F.SilkS")
@@ -11679,6 +11692,19 @@
 				(bold yes)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "-- Jeff VanderMeer,\nAnnihilation (2014) "
+		(at 46.482 60.706 0)
+		(layer "F.SilkS")
+		(uuid "faa0501e-e7fe-42ef-82a0-d367d3bc7acc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify top)
 		)
 	)
 	(gr_text "https://pcb.nom.is/wireless-3v3-supercap"
@@ -11740,7 +11766,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
